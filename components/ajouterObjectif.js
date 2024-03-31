@@ -26,7 +26,7 @@ export default function AjouterObjectif({ setObjectifs }) {
   };
 
   return (
-    <View style={{ paddingTop: 50, alignItems: 'center' }}>
+    <View style={{ flexDirection: 'row', gap:15,	 paddingTop: 50, alignItems: 'center' }}>
       <TextInput
         value={nouvelObjectif}
         onChangeText={setNouvelObjectif}
